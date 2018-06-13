@@ -14,24 +14,26 @@ Scripts for the #101nights project, during the first [Brainhack Network](http://
 
 :heavy_check_mark: extract and format all daily logs (daily-logs.txt)
 
-:soon: read XMLs for the "incepted" messages
+:heavy_check_mark: read XMLs for the "incepted" messages
 
 <img src="https://img.shields.io/badge/2-Steady...-orange.svg?longCache=true&style=for-the-badge">
 
 :heavy_check_mark: artifacts rejection & sensor interpolation ([autoreject](http://autoreject.github.io/))
 
-:soon: semantic modeling of dreams ([word2vec](https://radimrehurek.com/gensim/models/word2vec.html))
+:heavy_check_mark: parse triggers from the EEG recordings
 
-:heavy_minus_sign: hierarchical block (cluster-topic) modeling of dreams ([abstractology](https://gitlab.com/solstag/abstractology/))
+:heavy_check_mark: semantic modeling of dreams ([word2vec](https://radimrehurek.com/gensim/models/word2vec.html))
+
+:heavy_check_mark: sleep stages inference ([AutoSleepScorer](https://github.com/skjerns/AutoSleepScorer))
 
 <img src="https://img.shields.io/badge/3-Go!-green.svg?longCache=true&style=for-the-badge">
 
-:soon: sleep stages inference ([SLEEPNET](https://arxiv.org/pdf/1707.08262.pdf))
+:heavy_check_mark: hierarchical block (cluster-topic) modeling of dreams ([abstractology](https://gitlab.com/solstag/abstractology/))
 
-:heavy_minus_sign: test effect of "incepted" messages on the content of dreams
+:heavy_check_mark: test effect of "incepted" messages on the content of dreams (tips: use [cosine distance](https://www.researchgate.net/post/What_is_the_best_way_to_measure_text_similarities_based_on_word2vec_word_embeddings) or [n_similarity](https://tedboy.github.io/nlps/generated/generated/gensim.models.Word2Vec.n_similarity.html))
 
-:heavy_minus_sign: extract semantic networks
+:heavy_check_mark: extract functional brain networks at [scalp level](https://www.martinos.org/mne/stable/auto_examples/connectivity/plot_sensor_connectivity.html#sphx-glr-auto-examples-connectivity-plot-sensor-connectivity-py)
 
-:heavy_minus_sign: extract functional brain networks
+:soon: [get to the source level](http://www.martinos.org/mne/stable/manual/cookbook.html) using MRI data
 
 :heavy_minus_sign: ...
